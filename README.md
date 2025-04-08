@@ -50,8 +50,6 @@ _Cryptography meets usability._
 * **Anomaly Detection:** Planned Python module using `scikit-learn`/`joblib`. Analyzes decrypted message characteristics (size, frequency, content patterns) post-decryption.
 * **Real-time Alerts:** Integrated to flag suspicious activity directly to the user.
 
-`[Optional: Link to Detailed Architecture Document or Diagram]`
-
 </details>
 
 ---
