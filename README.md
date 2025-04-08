@@ -158,6 +158,6 @@ We welcome contributions!
 ---
 
 Powered by Payar, Passion, and Purpose with Privacy — Securing your Secrets with Strength, and built on Trust, Transparency, and Truth.✨
-* **🧑‍💻** Hitesh Jangid
+**🧑‍💻** Hitesh Jangid
 
 </div>
