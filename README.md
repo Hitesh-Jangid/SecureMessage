@@ -31,7 +31,7 @@ _Cryptography meets usability._
 
 Experience the interface firsthand:
 
-<div align="center">
+''<div align="center">
 
 | Command-Line Interface (CLI)                       | Graphical User Interface (GUI)                          |
 | :------------------------------------------------: | :-----------------------------------------------------: |
@@ -40,7 +40,7 @@ Experience the interface firsthand:
 
 *⬆️ Replace bracketed text above with links to your actual screenshots or GIFs! ⬆️*
 
-</div>
+</div>''
 
 ---
 
