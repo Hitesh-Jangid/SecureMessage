@@ -1,16 +1,16 @@
 <div align="center">
 
-# 💎 UltraSecureTextEncryption 💎
+# 💎 Ultra Secure Messaging App 💎
 
 **Next-Generation Secure Messaging.** <br/>
 _Cryptography meets usability._
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/badge/Build-Passing-green)](https://github.com/yourusername/UltraSecureTextEncryption) [![Release Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)](https://github.com/yourusername/UltraSecureTextEncryption/releases) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/yourusername/UltraSecureTextEncryption/blob/main/CONTRIBUTING.md) </div>
+[![Build Status](https://img.shields.io/badge/Build-Passing-green)](https://github.com/Hitesh-Jangid/SecureMessage) [![Release Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)](https://github.com/Hitesh-Jangid/SecureMessage/releases) [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/Hitesh-Jangid/SecureMessage/blob/main/CONTRIBUTING.md) </div>
 
 ---
 
-**UltraSecureTextEncryption** redefines secure communication. It fuses robust, industry-standard cryptography (**AES + RSA Hybrid**) with **Digital Signatures** for absolute message integrity. Access it via a **powerful CLI** or a **sleek Qt GUI**, with **AI-driven Anomaly Detection** on the horizon. Open-source, private, and built for the modern era.
+**Ultra Secure Messaging App** redefines secure communication. It fuses robust, industry-standard cryptography (**AES + RSA Hybrid**) with **Digital Signatures** for absolute message integrity. Access it via a **powerful CLI** or a **sleek Qt GUI**, with **AI-driven Anomaly Detection** on the horizon. Open-source, private, and built for the modern era.
 
 ---
 
@@ -27,23 +27,6 @@ _Cryptography meets usability._
 
 ---
 
-## 🚀 Visual Demo
-
-Experience the interface firsthand:
-
-''<div align="center">
-
-| Command-Line Interface (CLI)                       | Graphical User Interface (GUI)                          |
-| :------------------------------------------------: | :-----------------------------------------------------: |
-| `[Screenshot/GIF of CLI Client - Clean & Fast]`      | `[Screenshot/GIF of Qt GUI Client - Modern Chat View]` |
-| *Power-user control via the command line.* | *Intuitive chat windows, familiar look & feel.* |
-
-*⬆️ Replace bracketed text above with links to your actual screenshots or GIFs! ⬆️*
-
-</div>''
-
----
-
 ## 🛠️ Tech Stack & Architecture
 
 <details>
@@ -57,11 +40,11 @@ Experience the interface firsthand:
 
 ### Networking Layer
 * **Server (`ServerApp`):** TCP listener, manages user registration (username + public key), routes encrypted packets.
-* **Clients (`ClientApp`, `ClientGUI`):** TCP connection to server, registration, sending/receiving secure packets via a shared networking module.
+* **Clients (`ClientApp`, `GUIApp`):** TCP connection to server, registration, sending/receiving secure packets via a shared networking module.
 
 ### User Interfaces
 * **CLI (`ClientApp`):** Text-based interaction for sending/receiving messages.
-* **GUI (`ClientGUI`):** Qt5-based desktop application. Features multi-window chat, user prompts for setup, dedicated chat views per user (messages only appear for sender/recipient).
+* **GUI (`GUIApp`):** Qt5-based desktop application. Features multi-window chat, user prompts for setup, dedicated chat views per user (messages only appear for sender/recipient).
 
 ### Machine Learning Module (Future)
 * **Anomaly Detection:** Planned Python module using `scikit-learn`/`joblib`. Analyzes decrypted message characteristics (size, frequency, content patterns) post-decryption.
@@ -92,16 +75,14 @@ Experience the interface firsthand:
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://github.com/yourusername/UltraSecureTextEncryption.git](https://github.com/yourusername/UltraSecureTextEncryption.git) # Use your repo URL
-    cd UltraSecureTextEncryption
+    git clone [https://github.com/yourusername/UltraSecureTextEncryption.git](https://github.com/Hitesh-Jangid/SecureMessage.git) 
     ```
 2.  **Compile:**
     ```bash
-    # Navigate to the source code directory (e.g., phase1, src, .)
-    cd phase1 # Adjust if needed
-    make clean && make
+    # Navigate to the source code directory
+        make clean && make
     ```
-    *This generates executables: `ServerApp`, `ClientApp`, `ClientGUI` in the build directory.*
+    *This generates executables: `ServerApp`, `ClientApp`, `GUIApp` in the build directory.*
 
 </details>
 
@@ -127,8 +108,8 @@ Experience the interface firsthand:
 
 3.  **Run the GUI Client:**
     * Open a terminal (or use your desktop environment's launcher).
-    * Navigate to the directory with the `ClientGUI` executable.
-    * Run: `./ClientGUI`
+    * Navigate to the directory with the `GUIApp` executable.
+    * Run: `./GUIApp`
     * A setup dialog will appear. Enter:
         * Number of Users (minimum 2).
         * Server IP and Port.
@@ -165,13 +146,12 @@ Experience the interface firsthand:
 
 ## 🤝 Contributing & Contact
 
-We welcome contributions! Please read our `CONTRIBUTING.md` guide (you should create this file!).
-
+We welcome contributions!
 * **🧑‍💻 Lead Developer:** Hitesh Jangid
-* **🐛 Report Issues:** **[Submit an Issue](https://github.com/yourusername/UltraSecureTextEncryption/issues)** (Update Link)
-* **💡 Feature Requests:** **[Suggest an Idea](https://github.com/yourusername/UltraSecureTextEncryption/issues)** (Update Link)
-* **🐙 Project Repository:** **[github.com/yourusername/UltraSecureTextEncryption](https://github.com/yourusername/UltraSecureTextEncryption)** (Update Link)
-* **📧 Contact:** `your_email@example.com` (Update Email)
+* **🐛 Report Issues:** **[Submit an Issue](https://github.com/Hitesh-Jangid/SecureMessage/issues)** 
+* **💡 Feature Requests:** **[Suggest an Idea](https://github.com/Hitesh-Jangid/SecureMessage/issues)** 
+* **🐙 Project Repository:** **[github.com/Hitesh-Jangid/SecureMessage](https://github.com/Hitesh-Jangid/SecureMessage)** 
+* **📧 Contact:** `hiteshjangid@duck.com`
 
 <div align="center">
 
