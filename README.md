@@ -73,7 +73,7 @@ _Cryptography meets usability._
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://github.com/yourusername/UltraSecureTextEncryption.git](https://github.com/Hitesh-Jangid/SecureMessage.git) 
+    git clone [https://github.com/Hitesh-Jangid/SecureMessage.git](https://github.com/Hitesh-Jangid/SecureMessage.git) 
     ```
 2.  **Compile:**
     ```bash
